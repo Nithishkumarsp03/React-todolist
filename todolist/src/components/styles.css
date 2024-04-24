@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head h1{
+    margin: 60px auto 0px auto;
+}
+
+input{
+    font-size: 18px;
+    
+    width: 320px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 10px;
+    border-color: rgb(238, 0, 0);
+}
+
+input::placeholder{
+    font-size: 18px;
+}
+
+
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto auto auto; 
+    margin-bottom: 30px;
+}
+
+button{
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    border-color: rgb(63, 2, 2);
+    margin-left: -10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    color: white;
+    background-color: red;
+}
+
+.header{
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border: 2px solid rgb(147, 6, 6);
+    box-shadow: 0px 1px 20px rgb(18, 20, 18);
+}
+
+.tasks{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.tasks ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.edit-button{
+    margin-left: 20px;
+}
+.complete-button{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.delete-button{
+    margin-left: 10px;
+}
+.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
